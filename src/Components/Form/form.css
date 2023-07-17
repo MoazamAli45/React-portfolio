@@ -1,0 +1,67 @@
+/* Base styles for form container and form groups */
+.form-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: var(--clr-primary);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid var(--clr-fg-alt);
+  border-radius: 4px;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--clr-primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Light theme */
+.form-container.light {
+  background-color: var(--clr-bg);
+}
+
+.form-group input,
+.form-group textarea {
+  box-shadow: none; /* Remove shadow for light theme */
+}
+
+/* Dark theme */
+.form-container.dark {
+  background-color: var(--clr-bg);
+  color: var(--clr-fg);
+}
+
+.form-group input,
+.form-group textarea {
+  box-shadow: var(--shadow); /* Add shadow for dark theme */
+}
+
+/* Additional styles for button in dark theme */
+.form-container.dark button {
+  background-color: var(--clr-primary);
+  color: #fff;
+}
