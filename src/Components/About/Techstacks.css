@@ -1,12 +1,13 @@
 .main {
   margin-top: 4em;
 }
+
 .techsection {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
-  /* max-height: 400px; */
+  max-height: 400px;
 }
 
 .techsection > div {

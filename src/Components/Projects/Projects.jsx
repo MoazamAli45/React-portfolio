@@ -9,6 +9,8 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiFirebase,
+  SiNodedotjs,
+  SiExpress,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -19,6 +21,8 @@ import project3 from "../../assets/project3.png";
 import project4 from "../../assets/project4.png";
 import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.png";
+import ecommerceProject from "../../assets/project-ecommerce.png";
+import hospitalProject from "../../assets/project-hospital-system.png";
 
 export const Projects = () => {
   return (
@@ -26,6 +30,86 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          {/*  Project 1 */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={ecommerceProject} alt="Ecommerce Website" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>AlSyed Ecommerce Website</h2>
+                <p>
+                  AlSyed Ecommerce is an ecommerce website created using reactJs
+                  , NodeJs, ExpressJs and MongoDb. Admin has also dashboard to
+                  view products.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiNodedotjs />
+                </div>
+                <div>
+                  <a
+                    href="https://alsyed-eccommerce.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/MoazamAli45/Ecommerce-mern"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Project 2 */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={hospitalProject} alt="Hospital Complaint System" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Hospital Complaint System (Mern Stack)</h2>
+                <p>
+                  This is Hospital Complaint System developed for client for
+                  managing Complaints.It consists of Interfaces for GSO,
+                  Director and HOD. Director can track all complaints.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiNodedotjs />
+                </div>
+                <div>
+                  <a
+                    href="https://hospitalsystem-two.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Project 3 */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
