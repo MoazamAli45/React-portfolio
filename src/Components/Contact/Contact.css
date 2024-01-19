@@ -39,9 +39,9 @@
 .mailNumber p {
   margin: 5px;
 }
-.contactcontainer svg:hover {
+/* .contactcontainer svg:hover {
   font-size: 4rem;
-}
+} */
 .linkedin:hover {
   color: #0a66c2;
 }

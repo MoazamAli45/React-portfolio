@@ -32,7 +32,7 @@
 .project_videocontainer > div {
   width: 90%;
   height: 90%;
-  
+
   border-radius: 20px;
 }
 .project_videocontainer > div > img {
@@ -85,7 +85,7 @@
 .onbt {
   margin: 0 1vw 0 1vw;
 }
-.btns{
+.btns {
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
   border-radius: 5px;
@@ -94,7 +94,7 @@
   padding: 10px;
   margin-top: 10px;
 }
-.btns:hover{
+.btns:hover {
   color: var(--clr-bg);
   border: 2px solid var(--clr-primary);
   background-color: var(--clr-primary);
@@ -107,14 +107,14 @@
   display: none;
 }
 
-.allProjects{
+.allProjects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .project {
-    border: 2px solid var(--clr-primary);
-    flex-direction: column;
-  }
+  border: 2px solid var(--clr-primary);
+  flex-direction: column;
+}
 
 @media (max-width: 800px) {
   .project {
@@ -127,7 +127,7 @@
   .project_information {
     flex-basis: 60%;
   }
-  .allProjects{
+  .allProjects {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }

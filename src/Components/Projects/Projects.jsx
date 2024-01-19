@@ -23,6 +23,8 @@ import project5 from "../../assets/project5.png";
 import project6 from "../../assets/project6.png";
 import ecommerceProject from "../../assets/project-ecommerce.png";
 import hospitalProject from "../../assets/project-hospital-system.png";
+import chatProject from "../../assets/project-chat-application.png";
+import connecterProject from "../../assets/project-connecter.png";
 
 export const Projects = () => {
   return (
@@ -30,7 +32,92 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
-          {/*  Project 1 */}
+          {/* Project 1 */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={connecterProject} alt="connecter Website" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Connecter Website </h2>
+                <p>
+                  Connecter is a Website created using NextJs 14 and Tailwind
+                  Css.
+                </p>
+                <div>
+                  <SiNextdotjs />
+
+                  <SiTailwindcss />
+                </div>
+                <div>
+                  <a
+                    href="https://connecter-three.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/MoazamAli45/Connecter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Project 1 */}
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={chatProject} alt="chat Application" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Chat Application </h2>
+                <p>
+                  TeamSpeak is a Chat Application created using reactJs ,
+                  NodeJs, ExpressJs and MongoDb.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiNodedotjs />
+                </div>
+                <div>
+                  <a
+                    href="chat-application-frontend-chi.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/MoazamAli45/Chat-Application"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*  Project 2 */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -39,7 +126,7 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>AlSyed Ecommerce Website</h2>
+                <h2>AlSyed Ecommerce Website(Mern Stack)</h2>
                 <p>
                   AlSyed Ecommerce is an ecommerce website created using reactJs
                   , NodeJs, ExpressJs and MongoDb. Admin has also dashboard to

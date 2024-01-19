@@ -22,9 +22,9 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Experienced frontend web developer specializing in React and Next.js.
-          Passionate about crafting user-friendly interfaces and building
-          efficient, responsive web applications.
+          Experienced Mern Stack Web Developer specializing in React and
+          Next.js. Passionate about crafting user-friendly interfaces and
+          building efficient, responsive web applications.
         </p>
         <div className="about__contact center">
           <a
