@@ -30,7 +30,10 @@ export const Introduction = () => {
                 . I am currently pursuing my BS in Software Engineering from
                 <span className="different"> UET Taxila, Pakistan</span>. I am a
                 Experienced
-                <span className="different"> frontend web developer </span>{" "}
+                <span className="different">
+                  {" "}
+                  Mern Stack Web Developer{" "}
+                </span>{" "}
                 specializing in React and Next.js. Passionate about crafting
                 user-friendly interfaces and building efficient, responsive web
                 applications.
